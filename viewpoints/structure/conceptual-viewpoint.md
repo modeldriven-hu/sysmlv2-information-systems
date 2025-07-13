@@ -65,3 +65,37 @@ TODO
  // TODO
 
 ```
+
+# Open questions
+
+TODO
+
+# Additional material
+
+## OntoUML
+
+OntoUML is an ontologically well-founded language for Ontology-driven Conceptual Modeling. It provides base elements like `kind`, `subkind`, `phase`, `role`, etc. also both a pattern and anti-pattern catalog that helps evaluating the goodness of a model.
+
+### Ideas
+
+Although OntoUML seems also to have a textual syntax, the SysML V2 metadata capability could be used to define concepts above enabling seamless integration in the SysML V2 world. Alternatively a model to model transformation could be implemented to convert from OntoUML textual format to SysML V2 textual format.
+
+### Links
+
+- https://ontouml.readthedocs.io
+- https://ontouml.org/
+- https://research.utwente.nl/en/publications/
+- https://www.youtube.com/channel/UCuTDQnqa9EBTkH508NDIBHg
+
+## Alloy Analyzer
+
+Alloy is an open source language and analyzer for software modeling. It can be used to describe ontological structures and generate examples of it that can be used to validate the ontological model. The language itself can be used for both structured and behavior modeling.
+
+### Ideas
+
+The conceptual views based on SysML V2 could be transformed to AlloyTools models and executed using the AlloyTools engine in order to validate the model.
+
+### Links
+
+- https://alloytools.org/
+- https://practicalalloy.github.io/
